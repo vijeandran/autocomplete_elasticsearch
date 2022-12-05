@@ -18,7 +18,7 @@ api = Api(app)
 
 INDEX_NAME = 'customer'
 es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
-
+# Comment Line
 #------------------------------------------------------------------------------------------------------------
 
 """
